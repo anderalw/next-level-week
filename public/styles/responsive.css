@@ -30,6 +30,23 @@
     line-height: 38px;
     margin-top: 24px;
   }
+
+  #page-search-results .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  #page-search-results .cards img {
+    height: 200px;
+  }
+
+  #page-create-point .field-group {
+    flex-direction: column;
+  }
+
+  #page-create-point .field-group .field + .field {
+    margin-left: 0;
+  }
+
 }
 
 @media (min-width: 1700px) {
